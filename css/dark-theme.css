@@ -18,31 +18,35 @@ nav.dark-theme a {
 .hero.dark-theme h1 {
   background-color: rgba(0, 0, 0, 0.7);
 }
-.menu.dark-theme {
+body.dark-theme .menu {
   display: flex;
   justify-content: space-around;
   padding: 40px;
 }
-.menu.dark-theme .menu-item {
-  background-color: #333;
+body.dark-theme .menu-item {
+  background-color: #333; /* Ensure this is dark */
   color: #e0e0e0;
   padding: 20px;
   border-radius: 10px;
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-.menu.dark-theme .menu-item img {
+body.dark-theme .menu-item img {
   width: 200px;
   height: 150px;
   object-fit: cover;
   border-radius: 10px;
 }
-.menu.dark-theme .menu-item h3 {
+body.dark-theme .menu-item h3 {
   margin: 10px 0;
   font-size: 24px;
 }
-.menu.dark-theme .menu-item p {
+body.dark-theme .menu-item p {
   color: #b0b0b0;
+}
+body.dark-theme .Pizzaria-text {
+  background-color: #333; /* Ensure this is dark */
+  color: #e0e0e0;
 }
 footer.dark-theme {
   background-color: #333;
