@@ -9,6 +9,7 @@ body {
   margin: 0;
   background-color: #f2f2f2;
 }
+
 header {
   background-color: #d50000;
   color: white;
@@ -34,16 +35,19 @@ nav {
   background-color: #b71c1c;
   padding: 10px 0;
 }
+
 nav a {
   color: white;
   text-decoration: none;
   font-size: 18px;
 }
+
 nav a:hover {
   text-decoration: underline;
   transform: scale(1.1);
   transition: transform 0.3s;
 }
+
 .hero {
   background-image: url("/imagens/pizza1.png");
   border-radius: 10px;
@@ -54,6 +58,7 @@ nav a:hover {
   color: white;
   text-align: center;
 }
+
 .hero h1 {
   position: absolute;
   top: 50%;
@@ -63,6 +68,7 @@ nav a:hover {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 20px;
 }
+
 .Pizzaria-text {
   margin: 1% auto; /* Centraliza horizontalmente */
   width: 50%;
@@ -75,18 +81,22 @@ nav a:hover {
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 #mais-vendidas {
   font-family: "Sixtyfour Convergence";
   color: black;
 }
+
 .menu {
   display: flex;
   justify-content: space-around;
   padding: 40px;
+  flex-wrap: wrap; /* Allow items to wrap on smaller screens */
 }
 
 .menu-item {
-  width: 500px; /* Define uma largura fixa */
+  width: 100%; /* Full width on mobile */
+  max-width: 500px; /* Limit the maximum width */
   background-color: white;
   padding: 20px;
   border-radius: 10px;
@@ -95,11 +105,12 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 20px; /* Space between items */
 }
 
 .menu-item img {
-  width: 200px;
-  height: 150px;
+  width: 100%; /* Full width on mobile */
+  height: auto; /* Maintain aspect ratio */
   object-fit: cover;
   border-radius: 10px;
 }
@@ -112,6 +123,7 @@ nav a:hover {
 .menu-item p {
   color: #757575;
 }
+
 footer {
   background-color: #d50000;
   color: white;

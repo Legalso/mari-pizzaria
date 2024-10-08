@@ -1,0 +1,20 @@
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .Pizzaria-text {
+    width: 90%; /* Adjust width for mobile */
+    padding: 10px; /* Adjust padding for mobile */
+  }
+
+  .hero {
+    height: 200px; /* Adjust height for mobile */
+  }
+
+  .hero h1 {
+    font-size: 24px; /* Adjust font size for mobile */
+    padding: 10px; /* Adjust padding for mobile */
+  }
+
+  nav a {
+    font-size: 16px; /* Adjust font size for mobile */
+  }
+}
