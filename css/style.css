@@ -22,7 +22,7 @@ header {
 #Logotipo {
   width: 8%;
   height: auto;
-  transition: transform 0.3s; /* Mova a transição para o estado normal */
+  transition: transform 0.3s;
 }
 
 #Logotipo:hover {
@@ -70,12 +70,12 @@ nav a:hover {
 }
 
 .Pizzaria-text {
-  margin: 1% auto; /* Centraliza horizontalmente */
+  margin: 1% auto;
   width: 50%;
   display: flex;
-  justify-content: center; /* Centraliza horizontalmente */
-  align-items: center; /* Centraliza verticalmente */
-  padding: 20px; /* Corrigido para evitar duplicidade */
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
   background-color: white;
   border-radius: 10px;
   text-align: center;
@@ -91,12 +91,12 @@ nav a:hover {
   display: flex;
   justify-content: space-around;
   padding: 40px;
-  flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+  flex-wrap: wrap;
 }
 
 .menu-item {
-  width: 100%; /* Full width on mobile */
-  max-width: 500px; /* Limit the maximum width */
+  width: 100%;
+  max-width: 500px;
   background-color: white;
   padding: 20px;
   border-radius: 10px;
@@ -105,12 +105,12 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 20px; /* Space between items */
+  margin-bottom: 20px;
 }
 
 .menu-item img {
-  width: 100%; /* Full width on mobile */
-  height: auto; /* Maintain aspect ratio */
+  width: 100%;
+  height: auto;
   object-fit: cover;
   border-radius: 10px;
 }

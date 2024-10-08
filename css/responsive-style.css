@@ -1,20 +1,23 @@
-/* Media query for mobile devices */
 @media (max-width: 768px) {
+  #Logotipo {
+    width: 50%;
+  }
+
   .Pizzaria-text {
-    width: 90%; /* Adjust width for mobile */
-    padding: 10px; /* Adjust padding for mobile */
+    width: 90%;
+    padding: 10px;
   }
 
   .hero {
-    height: 200px; /* Adjust height for mobile */
+    height: 200px;
   }
 
   .hero h1 {
-    font-size: 24px; /* Adjust font size for mobile */
-    padding: 10px; /* Adjust padding for mobile */
+    font-size: 24px;
+    padding: 10px;
   }
 
   nav a {
-    font-size: 16px; /* Adjust font size for mobile */
+    font-size: 16px;
   }
 }
